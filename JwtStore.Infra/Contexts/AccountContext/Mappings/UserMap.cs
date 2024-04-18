@@ -32,12 +32,16 @@ namespace JwtStore.Infra.Contexts.AccountContext.Mappings
             builder.OwnsOne(x => x.Email)
                 .Property(x => x.Address)
                 .HasColumnName("Email")
+                .HasColumnType("NVARCHAR")
+                .HasMaxLength(120)
                 .IsRequired(true);
 
             builder.OwnsOne(x => x.Email)
                 .OwnsOne(x => x.Verification)
                 .Property(x => x.Code)
                 .HasColumnName("EmailVerificationCode")
+                .HasColumnType("NVARCHAR")
+                .HasMaxLength(120)
                 .IsRequired(true);
 
             builder.OwnsOne(x => x.Email)
@@ -59,11 +63,15 @@ namespace JwtStore.Infra.Contexts.AccountContext.Mappings
             builder.OwnsOne(x => x.Password)
                 .Property(x => x.Hash)
                 .HasColumnName("PasswordHash")
+                .HasColumnType("NVARCHAR")
+                .HasMaxLength(255)
                 .IsRequired();
 
             builder.OwnsOne(x => x.Password)
                 .Property(x => x.ResetCode)
                 .HasColumnName("PasswordResetCode")
+                .HasColumnType("NVARCHAR")
+                .HasMaxLength(255)
                 .IsRequired();
         }
     }

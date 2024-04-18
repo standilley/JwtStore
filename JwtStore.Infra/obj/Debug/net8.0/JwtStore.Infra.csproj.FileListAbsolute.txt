@@ -1,0 +1,16 @@
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\bin\Debug\net8.0\JwtStore.Infra.deps.json
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\bin\Debug\net8.0\JwtStore.Infra.dll
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\bin\Debug\net8.0\JwtStore.Infra.pdb
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\bin\Debug\net8.0\JwtStore.Core.dll
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\bin\Debug\net8.0\JwtStore.Core.pdb
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.csproj.AssemblyReference.cache
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.AssemblyInfoInputs.cache
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.AssemblyInfo.cs
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.sourcelink.json
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.CB581EA6.Up2Date
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.dll
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\refint\JwtStore.Infra.dll
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\JwtStore.Infra.pdb
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Infra\obj\Debug\net8.0\ref\JwtStore.Infra.dll
