@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iqTNxL1YTmAFAC7rsWRRqpBhdSft6BY1bjQUPOO51PxEHxqaa8f8+PGocMemaAzaWNyKZcivQ/4SSBxbHTb6Jg==",
+  "dgSpecHash": "ONNEgTl+1CxRwplqvqOXWQm9R4YQnm8EIhW4Ge+duCUIwMXwrFsPvBB/PZzwkFu7HaC5SWE3PsWXxXl2xiMGgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Standilley-Dev\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\Standilley-Dev\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\Standilley-Dev\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Standilley-Dev\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Standilley-Dev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

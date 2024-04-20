@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj": {}
+    "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Infra\\JwtStore - Backup.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj": {
+    "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Infra\\JwtStore - Backup.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj",
-        "projectName": "JwtStore.Core",
-        "projectPath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Infra\\JwtStore - Backup.Infra.csproj",
+        "projectName": "JwtStore - Backup.Infra",
+        "projectPath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Infra\\JwtStore - Backup.Infra.csproj",
         "packagesPath": "C:\\Users\\Standilley-Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\obj\\",
+        "outputPath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Standilley-Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Standilley-Dev\\Desktop\\Projetos.NET\\src\\JwtStore\\JwtStore.Core\\JwtStore.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,13 +44,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Flunt": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.0.5, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
