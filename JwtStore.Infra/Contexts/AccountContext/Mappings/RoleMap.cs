@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace JwtStore.Infra.Contexts.AccountContext.Mappings
 {
-    internal class RoleMap : IEntityTypeConfiguration<Role>
+    public class RoleMap : IEntityTypeConfiguration<Role>
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
