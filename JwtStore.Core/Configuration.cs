@@ -18,8 +18,8 @@ namespace JwtStore.Core
         }
         public class EmailConfiguration
         {
-            public string DefaultFromEmail { get; set; } = "test@test.com";
             public string DefaultFromName { get; set; } = "testando";
+            public string DefaultFromEmail { get; set; } = "test@test.com";
         }
         public class SendGridConfiguration
         {

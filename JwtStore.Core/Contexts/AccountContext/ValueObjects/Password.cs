@@ -12,15 +12,22 @@ namespace JwtStore.Core.Contexts.AccountContext.ValueObjects
     {
         private const string Valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         private const string Special = "!@#$%ˆ&*(){}[];";
+
         protected Password()
         {
         }
+
         public Password(string? text = null)
         {
             if (string.IsNullOrEmpty(text) || string.IsNullOrWhiteSpace(text))
                 text = Generate();
+
             Hash = Hashing(text);
         }
+
+        public bool Challenge(string plainTextPassword)
+            => Verify(Hash, plainTextPassword);
+
         public string Hash { get; } = string.Empty;
         public string ResetCode { get; } = Guid.NewGuid().ToString("N")[..8].ToUpper();
 
@@ -29,7 +36,7 @@ namespace JwtStore.Core.Contexts.AccountContext.ValueObjects
             bool includeSpecialChars = true,
             bool upperCase = false)
         {
-            var chars = includeSpecialChars ? Valid + Special : Valid;
+            var chars = includeSpecialChars ? (Valid + Special) : Valid;
             var startRandom = upperCase ? 26 : 0;
             var index = 0;
             var res = new char[length];
@@ -40,6 +47,7 @@ namespace JwtStore.Core.Contexts.AccountContext.ValueObjects
 
             return new string(res);
         }
+
         private static string Hashing(
             string password,
             short saltSize = 16,
@@ -62,6 +70,7 @@ namespace JwtStore.Core.Contexts.AccountContext.ValueObjects
 
             return $"{iterations}{splitChar}{salt}{splitChar}{key}";
         }
+
         private static bool Verify(
             string hash,
             string password,

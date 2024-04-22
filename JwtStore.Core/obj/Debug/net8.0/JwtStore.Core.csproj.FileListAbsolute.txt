@@ -1,6 +1,7 @@
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\bin\Debug\net8.0\JwtStore.Core.deps.json
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\bin\Debug\net8.0\JwtStore.Core.dll
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\bin\Debug\net8.0\JwtStore.Core.pdb
+C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\obj\Debug\net8.0\JwtStore.Core.csproj.AssemblyReference.cache
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\obj\Debug\net8.0\JwtStore.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\obj\Debug\net8.0\JwtStore.Core.AssemblyInfoInputs.cache
 C:\Users\Standilley-Dev\Desktop\Projetos.NET\src\JwtStore\JwtStore.Core\obj\Debug\net8.0\JwtStore.Core.AssemblyInfo.cs
